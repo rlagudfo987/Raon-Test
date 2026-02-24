@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RAONLAB | 리포트 예시</title>
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <nav class="nav">
+        <a class="brand" href="index.html">
+          <img src="assets/logo.png" alt="RAONLAB Logo" />
+          <div>
+            <div class="name">RAONLAB</div>
+            <div class="tag">Sperm RNA Monitoring</div>
+          </div>
+        </a>
+
+        <div class="navlinks" data-navlinks>
+          <a href="index.html">홈</a>
+          <a class="active" href="report.html">리포트 예시</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">문의</a>
+          <a href="privacy.html">개인정보</a>
+        </div>
+
+        <div class="actions">
+          <a class="btn primary" href="contact.html">키트/상담 문의</a>
+          <button class="btn hamburger" data-hamburger aria-label="메뉴 열기">☰</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="pagehead">
+      <h1>리포트 예시(샘플)</h1>
+      <p>실제 리포트는 “사용자 이해” 중심으로 구성되며, 점수/추이/권장 액션을 한 눈에 제공합니다.</p>
+    </div>
+
+    <div class="card pad">
+      <h3 class="card-title">핵심 요약</h3>
+      <p class="card-sub">
+        - 총점(예시): 78/100<br/>
+        - 최근 3개월 변화: +6 (개선)<br/>
+        - 주요 개선 포인트: 수면 규칙성, 운동 루틴, 음주 빈도 감소 유지
+      </p>
+
+      <div class="tablelike" style="margin-top:16px;">
+        <div class="row">
+          <div class="cell key">총점</div>
+          <div class="cell"><b>78</b> / 100 (예시)</div>
+        </div>
+        <div class="row">
+          <div class="cell key">변화 감지</div>
+          <div class="cell">이전 대비 <b>상승</b> 경향 (예시)</div>
+        </div>
+        <div class="row">
+          <div class="cell key">해석</div>
+          <div class="cell">생활습관 변화가 기능 지표에 반영될 가능성이 있습니다(예시 문구).</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>기능 지표(예시)</h2>
+      <p>여기는 너가 만들었던 “6개 축 점수” 같은 구조를 넣기 좋은 영역이야. (추후 실제 지표로 교체)</p>
+
+      <div class="grid3">
+        <div class="feature">
+          <div class="icon">A</div>
+          <h3>축 1</h3>
+          <p>예: 유전정보 보호 능력(예시)</p>
+        </div>
+        <div class="feature">
+          <div class="icon">B</div>
+          <h3>축 2</h3>
+          <p>예: 추진력 생성 능력(예시)</p>
+        </div>
+        <div class="feature">
+          <div class="icon">C</div>
+          <h3>축 3</h3>
+          <p>예: 운동 신호 조절 능력(예시)</p>
+        </div>
+      </div>
+
+      <div class="grid3">
+        <div class="feature">
+          <div class="icon">D</div>
+          <h3>축 4</h3>
+          <p>예: 수정 접근 능력(예시)</p>
+        </div>
+        <div class="feature">
+          <div class="icon">E</div>
+          <h3>축 5</h3>
+          <p>예: 성숙 완결도(예시)</p>
+        </div>
+        <div class="feature">
+          <div class="icon">F</div>
+          <h3>축 6</h3>
+          <p>예: 수정 후 발달 기여력(예시)</p>
+        </div>
+      </div>
+
+      <div class="banner">
+        <div>
+          <strong>추이 비교(예시)</strong><br/>
+          <span>전회 대비 증감, 3개월 변화 감지율, 생활습관 변화 집단 비교 등으로 확장 가능</span>
+        </div>
+        <a class="btn primary" href="contact.html">데모 요청</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="small">© <span id="y"></span> RAONLAB</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
